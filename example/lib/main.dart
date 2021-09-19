@@ -45,7 +45,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     TextStyle(color: Colors.black, fontWeight: FontWeight.w600),
                 parentPaddingEdgeInsets:
                     EdgeInsets.only(left: 16, top: 0, bottom: 0)),
-            onChildTap: (m) {
+            onTap: (m) {
               print("onChildTap -> $m");
               Navigator.push(
                   context,
